@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dea95995c1.js" crossorigin="anonymous"></script>
 
     <title>Weather App</title>
 </head>
@@ -23,7 +24,34 @@
                 <button id="localization-btn">Go</button>
             </div>
 
+            <div class="error-panel none">
+                <p>Niepoprawna nazwa miasta</p>
+            </div>
+
         </div>
+
+        
+        <section class="main-info">
+            
+            <div class="box">
+                <p class="city-name"></p>
+
+                <i class="fa-solid fa-cloud-sun"></i>
+
+                <p class="temperature"></p>
+            </div>
+
+
+            <div class="box">
+                <p class="humidity"></p>
+                <p class="pressure"></p>
+                <p class="wind"></p>
+            </div>
+            
+            
+            
+        </section>
+        
 
 
     </div>
